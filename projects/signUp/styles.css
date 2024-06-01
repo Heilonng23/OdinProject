@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Recursive:wght@300..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+body{
+   margin: 0;
+   padding: 0;
+   height: 100vh; /* Ensure body takes full viewport height */
+   display: flex;
+   background-color: #354c7c;
+}
+.containerAll{
+   padding: 0;
+   margin: 0;
+   display: flex;
+   height: 100%;
+}
+.vertical-bar {
+   position: fixed;
+   font-size: 20px;
+   width: 1000px; /* Set a fixed width */
+   height: 100%; /* Full height */
+   max-width: 1000px; /* Set a fixed width */
+   background-color: #f8f9fa; /* Background color for better visibility */
+   box-shadow: 2px 0 5px rgba(0,0,0,0.1); /* Optional shadow for better separation */
+   font-family: "Space mono", sans-serif;
+   z-index: 1; /* Ensure this is below the h1 */
+}
+
+h1{
+   font-family: 'Recursive';
+   z-index: 2; /* Ensure this is above the vertical-bar */
+   position: relative; /* Required for z-index to take effect */
+   margin-left: 20px;
+   margin-top: 150px;
+   background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent white background */
+   padding: 16px;
+   color:   	#354c7c;
+   border-radius: 16px; /* Rounded corners */
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+h3 {
+   font-family: 'Recursive';
+   z-index: 100; /* Higher value to ensure it is above other elements */
+   position: fixed; /* Fixed position */
+   bottom: 0; /* Position at the bottom of the viewport */
+   left: 20px; /* Position at the left of the viewport */
+   margin: 0; /* Remove any margin */
+   background-color: rgba(255, 255, 255, 0.4); /* Semi-transparent white background */
+   padding: 16px;
+   color: #f8f9fa;
+   border-radius: 12px; /* Rounded corners */
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+button{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 0 auto; /* Center the button */
+   margin-top: 20px;
+   margin-bottom: 20px;
+   padding: 14px 20px;
+   font-size: 14px;
+   background-color: #354c7c;
+   border: 3px solid black;
+   border-radius: 10px;
+   font-family: "Press Start 2P", system-ui;
+   font-weight: 500;
+}
+.container2{
+   display: flex;
+   align-items: self-start; /* Align items vertically in the center */
+}
+.container2 img{
+   z-index: 2;
+   position: relative;
+   width: 100px;
+   margin-left: 20px;
+   margin-top: 150px;
+}
+.marginLeft {
+   margin-left: 650px;
+}
+.containerUser {
+   margin-top: 60px;   
+   margin-left: 700px;
+   margin-bottom: 80px;
+   border: 3px solid black;
+   border-radius: 16px;
+   padding: 16px 24px;
+   text-align: left;
+}
+a{
+   color: #f8f9fa;
+}
+.containerUser header h2{
+   font-size: 28px;
+   font-family: "Press Start 2P", system-ui;
+}
+.containerUser p{
+   font-family: "Press Start 2P", system-ui;
+   font-size: 16px;
+}
+input{
+   background-color: #354c7c;
+   color: #f8f9fa;
+   border: 3px solid black;
+   border-radius: 10px;
+   padding: 8px 14px;
+}
