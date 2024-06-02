@@ -64,6 +64,7 @@ button{
    border-radius: 10px;
    font-family: "Press Start 2P", system-ui;
    font-weight: 500;
+   cursor: pointer;
 }
 .container2{
    display: flex;
