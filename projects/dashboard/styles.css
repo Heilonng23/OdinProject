@@ -168,9 +168,21 @@ body {
   .topNav {
     padding: 20px; /* Adjust padding for mobile */
   }
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-items: center;
+    margin: 0;
+  }
 
   .projects,
+  .container2,
+  .twitter,
   .news {
     grid-template-columns: 1fr; /* Change to single column for mobile */
+    justify-content: center;
+    text-align: center;
+    margin-left: 10px;
   }
 }
